@@ -11,27 +11,31 @@
 </head>
 <body>
         <div class="container">
-
+            <div class="title">
+                <h1>To do list js dom</h1>
+            </div>
             <!-- addTask  -->
             <div class="addTask">
                 <!-- input field  -->
                 <input type="text" name="" id="task" placeholder="Add a Task">
                 <!-- button  -->
                 <button id="addToTask">Add</button>
+                <button id="deleteAll">All Clear</button>
             </div>
 
             <!-- Not Completed  -->
             <ol class="notCompleted">
-                <h3>Not Completed</h3>
+                <h2>Not Completed</h2>
             </ol>
 
             <!--  Completed  -->
             <ol class="completed">
-                <h3>Not Completed</h3>
+                <h2>Completed</h2>
             </ol>
 
         </div>
 
     <script src="./app.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 </html>
