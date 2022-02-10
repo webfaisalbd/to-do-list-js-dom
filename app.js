@@ -41,7 +41,15 @@ addToTask.addEventListener('click',function(){
         parent.remove();
     })
 
-    
+    deleteAll.addEventListener('click',function(){
+        Swal.fire({
+            icon: 'success',
+            title: 'Done...',
+            text: 'All list has been deleted',
+            
+          })
+        newList.remove();
+    })
 
 
 })
